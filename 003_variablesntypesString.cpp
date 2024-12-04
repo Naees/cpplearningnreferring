@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string mystring;
-    mystring = "This is my first string";
+    mystring = "The first version of the string";
 
     /*
     As you can see in the previous example, strings can be initialized with any valid string literal, just like numerical type variables can be initialized to any valid numerical literal. As with fundamental types, all initialization formats are valid with strings:
@@ -37,7 +37,7 @@ endl
 
 
 \n
-- It is a character.
+- It is a character. 
 - It occupies 1 byte memory as it is a character.
 - It can be stored in a string and will still convey its specific meaning of line break.
 - We can write '\n' in between double quotations like std::cout<<"\n";.
