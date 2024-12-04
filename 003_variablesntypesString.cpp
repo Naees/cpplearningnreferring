@@ -24,4 +24,25 @@ int main()
     cout << mystring << endl;
     return 0;
 
+/*
+Note: inserting the endl manipulator ends the line (printing a newline character and flushing the stream).
+
+endl
+- Its is a manipulator
+- It doesn't occupy any memory.
+- It is a keyword and would not specify any meaning when stored in a string.
+- We cannot write 'endl' in between double quotations.
+- It is only supported by C++.
+- It keeps flushing the queu in the output buffer throughout the process.
+
+
+\n
+- It is a character.
+- It occupies 1 byte memory as it is a character.
+- It can be stored in a string and will still convey its specific meaning of line break.
+- We can write '\n' in between double quotations like std::cout<<"\n";.
+- It is supported in both C and C++.
+- It flushes the output buffer only once at the end of the program.
+*/
+
 }
