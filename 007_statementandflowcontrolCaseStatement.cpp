@@ -49,6 +49,13 @@ int main()
             continue;   // restart the loop
         }
 
+        /*
+        Why Doesn't It "Check" Case Conditions Again?
+
+        Once a matching case is found, the program does not re-check conditions for subsequent cases. 
+        This is intentional behavior in C++. 
+        A switch statement is designed this way to allow "fall-through logic" if desired. 
+        Without a break, it just continues sequentially, regardless of whether subsequent cases match or not.*/
         switch(aValue)
         {
         case 1:
