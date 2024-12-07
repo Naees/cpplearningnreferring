@@ -7,6 +7,8 @@ long factorial (long a)
     if (a>1)    // base case
     {
         return (a * factorial (a-1));
+        // n! = n * (n-1) * (n-2) *  (n-3) ... * 1
+    }
     }
     else
     {
